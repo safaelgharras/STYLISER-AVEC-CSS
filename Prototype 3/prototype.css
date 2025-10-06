@@ -1,0 +1,123 @@
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f6f2fa;            
+    color: #3a2e4c;                       
+    display: flex;                         
+    flex-direction: column;
+    justify-content: center;
+  
+    
+  }
+  
+  
+  main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    background-color: #ffffff;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  header img {
+    width: 120px;
+    height: 170px;
+    border-radius: 30%;
+    border: 3px solid #a56cc1;            
+    box-shadow: 0 0 10px rgba(165, 108, 193, 0.3);
+  }
+  
+
+  h1 {
+    color: #550460;                      
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  h2 {
+    color: #4a326e;
+    border-bottom: 2px solid #a56cc1;
+    padding-bottom: 0.3rem;
+    font-size: 1.3rem;
+  }
+  
+ 
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #faf6fd;            
+    border-radius: 10px;
+    border: 1px solid #e2d2f3;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 0.8rem;
+    border: 1px solid #d6b8f2;
+  }
+  
+  th {
+    background-color: #a56cc1;            
+    color: white;
+  }
+  
+  
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.5rem;
+    padding: 0;
+    list-style: none;
+  }
+  
+  ul li {
+    background-color: #e9d7f7;
+    padding: 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  ul li:hover {
+    background-color: #d7b3f3;
+    transform: scale(1.05);
+  }
+  
+ 
+  footer {
+    text-align: center;
+  padding: 1rem;
+  background-color: #a56cc1; 
+  color: white;
+  border-radius: 10px 10px 0 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
