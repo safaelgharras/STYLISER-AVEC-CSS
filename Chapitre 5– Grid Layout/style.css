@@ -1,0 +1,33 @@
+.container{
+    display :grid;
+    grid-template-columns: 300px 2fr  ;
+    grid-template-rows: 70px 1fr 50px;
+    gap:10px ;
+    height: 70px;
+}
+.header{
+    grid-column: 1/3 ;
+    background: #5e0563;
+    color: pink;
+    text-align:center;
+    line-height: 60px;
+}
+.sidebar{
+    background:#e37de8 ;
+    padding: 15px;
+    color: antiquewhite;
+
+}
+.content{
+    background:#e37de8;
+    padding: 14px;
+    color: antiquewhite;
+    text-align: right;
+}
+.footer{
+    grid-column: 1/3;
+    background: #ecaaef;
+    color:#5e0563;
+    text-align: center;
+    line-height: 40px;
+}
