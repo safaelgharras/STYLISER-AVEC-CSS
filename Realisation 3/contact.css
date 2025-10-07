@@ -1,0 +1,145 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #a56cc1; 
+    color: #3a2e4c;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+ 
+  header {
+    background-color:  #d5abea; 
+    color:rgb(82, 4, 88);
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  
+  nav ul {
+    list-style: circle;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #e6d3f7;
+    border-bottom: 2px solid #fff;
+  }
+  
+  
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+ 
+  section {
+    background-color: #ffffff;
+    border: 1px solid #d6b8f2;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+ 
+  section h2 {
+    color: #550460;
+    border-bottom: 2px solid #a56cc1;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  
+  a {
+    color: #7a4fa0;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #550460;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    border: 1px solid #c9aee4;
+    border-radius: 6px;
+    padding: 0.6rem;
+    font-family: inherit;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #a56cc1;
+    outline: none;
+    box-shadow: 0 0 6px #d6b8f2;
+  }
+  
+ 
+  button {
+    background-color: #a56cc1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #8d55ad;
+    transform: scale(1.03);
+  }
+  
+ 
+  @media (max-width: 600px) {
+    section {
+      margin: 1rem;
+      padding: 1rem;
+    }
+  }
+  

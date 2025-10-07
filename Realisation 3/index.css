@@ -1,0 +1,82 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #a56cc1; 
+    color: #3a2e4c;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  
+  header {
+    background-color:  #d5abea; 
+    color: rgb(82, 4, 88);
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+
+  nav ul {
+    list-style:circle;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin-top: 5rem;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+ 
+  nav ul li a:hover {
+    color: #e6d3f7; 
+    border-bottom: 2px solid #fff;
+  }
+  
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+    padding: 2rem;
+  }
+  
+  main p {
+    background-color: #ffffff;
+    border: 2px solid #d6b8f2;
+    border-radius: 12px;
+    padding: 1.5rem;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: all ease 0.5s;
+    
+  }
+
+  main p:hover {
+    box-shadow: inset 0 10px 10px #55046068;
+    transform: translateY(-10%)
+  }
+  
+  
