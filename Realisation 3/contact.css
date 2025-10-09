@@ -136,10 +136,4 @@ body {
   }
   
  
-  @media (max-width: 600px) {
-    section {
-      margin: 1rem;
-      padding: 1rem;
-    }
-  }
   
